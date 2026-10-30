@@ -1,0 +1,27 @@
+{
+  "artiste": "DreyM",
+  "signature": "© Dreymlz",
+  "oeuvres": [
+    {
+      "titre": "Crépuscule sur le bassin",
+      "technique": "Huile sur toile",
+      "dimensions": "60 × 73 cm",
+      "annee": "2026",
+      "image": "images/oeuvre-1.jpg"
+    },
+    {
+      "titre": "Regard d'ombre",
+      "technique": "Huile sur toile",
+      "dimensions": "60 × 73 cm",
+      "annee": "2026",
+      "image": "images/oeuvre-2.jpg"
+    },
+    {
+      "titre": "Vagues déchaînées",
+      "technique": "Huile sur toile, couteau",
+      "dimensions": "80 × 50 cm",
+      "annee": "2026",
+      "image": "images/oeuvre-3.jpg"
+    }
+  ]
+}

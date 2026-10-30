@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie DreyM — Peintures</title>
+  <meta name="description" content="Galerie virtuelle des œuvres peintes par DreyM. Chaque toile est présentée dans son cadre, avec son cartel.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="entete">
+    <p class="sur-titre">Collection personnelle</p>
+    <h1>Galerie <span class="nom-artiste">DreyM</span></h1>
+    <div class="frise" aria-hidden="true"></div>
+    <p class="sous-titre">Peintures à l'huile — œuvres originales © Dreymlz</p>
+  </header>
+
+  <main>
+    <section id="galerie" class="salle" aria-label="Salle d'exposition">
+      <p id="chargement" class="chargement">La galerie s'ouvre…</p>
+      <div id="mur" class="mur"></div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <p>© <span id="annee"></span> Dreymlz — Tous droits réservés. Reproduction interdite sans autorisation écrite.</p>
+  </footer>
+
+  <div id="visionneuse" class="visionneuse" role="dialog" aria-modal="true" aria-label="Œuvre en grand format" hidden>
+    <button class="fermer" id="fermer" aria-label="Fermer">&times;</button>
+    <figure class="visionneuse-contenu">
+      <div class="cadre cadre--grand">
+        <img id="visionneuse-img" src="" alt="">
+      </div>
+      <figcaption class="cartel cartel--grand" id="visionneuse-cartel"></figcaption>
+    </figure>
+    <button class="nav nav--prec" id="prec" aria-label="Œuvre précédente">&#8249;</button>
+    <button class="nav nav--suiv" id="suiv" aria-label="Œuvre suivante">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
